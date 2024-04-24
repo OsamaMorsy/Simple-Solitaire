@@ -25,23 +25,9 @@ import de.tobiasbielefeld.solitaire.*;
  */
 
 public class CardDrawables {
-    // Keep abstract drawables as is
-    public static final int[] sDrawablesAbstract = {
-        R.drawable.abstract_clubs_1, R.drawable.abstract_clubs_2, R.drawable.abstract_clubs_3, R.drawable.abstract_clubs_4, R.drawable.abstract_clubs_5, R.drawable.abstract_clubs_6,
-        R.drawable.abstract_clubs_7, R.drawable.abstract_clubs_8, R.drawable.abstract_clubs_9, R.drawable.abstract_clubs_10, R.drawable.abstract_clubs_11, R.drawable.abstract_clubs_12, R.drawable.abstract_clubs_13,
 
-        R.drawable.abstract_hearts_1, R.drawable.abstract_hearts_2, R.drawable.abstract_hearts_3, R.drawable.abstract_hearts_4, R.drawable.abstract_hearts_5, R.drawable.abstract_hearts_6,
-        R.drawable.abstract_hearts_7, R.drawable.abstract_hearts_8, R.drawable.abstract_hearts_9, R.drawable.abstract_hearts_10, R.drawable.abstract_hearts_11, R.drawable.abstract_hearts_12, R.drawable.abstract_hearts_13,
-
-        R.drawable.abstract_spades_1, R.drawable.abstract_spades_2, R.drawable.abstract_spades_3, R.drawable.abstract_spades_4, R.drawable.abstract_spades_5, R.drawable.abstract_spades_6,
-        R.drawable.abstract_spades_7, R.drawable.abstract_spades_8, R.drawable.abstract_spades_9, R.drawable.abstract_spades_10, R.drawable.abstract_spades_11, R.drawable.abstract_spades_12, R.drawable.abstract_spades_13,
-
-        R.drawable.abstract_diamonds_1, R.drawable.abstract_diamonds_2, R.drawable.abstract_diamonds_3, R.drawable.abstract_diamonds_4, R.drawable.abstract_diamonds_5, R.drawable.abstract_diamonds_6,
-        R.drawable.abstract_diamonds_7, R.drawable.abstract_diamonds_8, R.drawable.abstract_diamonds_9, R.drawable.abstract_diamonds_10, R.drawable.abstract_diamonds_11, R.drawable.abstract_diamonds_12, R.drawable.abstract_diamonds_13
-    };
-
-    // Refactored other drawable arrays
     public static final int[] sDrawablesClassic = createDrawableArray("classic");
+    public static final int[] sDrawablesAbstract = createDrawableArray("abstract");
     public static final int[] sDrawablesSimple = createDrawableArray("simple");
     public static final int[] sDrawablesModern = createDrawableArray("modern");
     public static final int[] sDrawablesDark = createDrawableArray("dark");
